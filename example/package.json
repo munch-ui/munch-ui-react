@@ -1,0 +1,49 @@
+{
+    "name": "munch-ui-react-example",
+    "homepage": ".",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "craco start",
+        "build": "craco build",
+        "test": "craco test"
+    },
+    "dependencies": {
+        "@craco/craco": "^6.0.0",
+        "@tailwindcss/postcss7-compat": "^2.0.2",
+        "@testing-library/jest-dom": "file:../node_modules/@testing-library/jest-dom",
+        "@testing-library/react": "file:../node_modules/@testing-library/react",
+        "@testing-library/user-event": "file:../node_modules/@testing-library/user-event",
+        "@types/jest": "file:../node_modules/@types/jest",
+        "@types/node": "file:../node_modules/@types/node",
+        "@types/react": "file:../node_modules/@types/react",
+        "@types/react-dom": "file:../node_modules/@types/react-dom",
+        "autoprefixer": "^9.8.6",
+        "munch-ui-react": "file:..",
+        "node-sass": "^4.14.1",
+        "postcss": "^7.0.35",
+        "react": "file:../node_modules/react",
+        "react-dom": "file:../node_modules/react-dom",
+        "react-scripts": "^4.0.0",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+        "typescript": "file:../node_modules/typescript"
+    },
+    "devDependencies": {
+        "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
