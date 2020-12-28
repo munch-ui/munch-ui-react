@@ -2,8 +2,7 @@
   "parser": "@typescript-eslint/parser",
   "extends": "@tsconfig/recommended/tsconfig.json",
   "include": [
-    "src",
-    "website/src"
+    "src"
   ],
   "exclude": [
     "node_modules",

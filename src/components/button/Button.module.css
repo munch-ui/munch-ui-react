@@ -1,0 +1,47 @@
+.mu-btn {
+    @apply appearance-none box-border focus:outline-none active:shadow font-semibold;
+}
+
+.mu-btn-appearance-fill {
+    @apply text-white hover:opacity-75 active:opacity-80;
+}
+
+.mu-btn-appearance-outline {
+    @apply hover:bg-gray-50 active:bg-gray-100;
+}
+
+.mu-btn-size-default {
+    @apply px-4 py-0.5;
+}
+
+.mu-btn-size-sm {
+    @apply px-4 py-0.5;
+}
+
+.mu-btn-size-lg {
+    @apply px-4 py-0.5;
+}
+
+.mu-btn-shape-default {
+    @apply rounded;
+}
+
+.mu-btn-shape-circle {
+    @apply rounded-full;
+}
+
+.mu-btn-flex {
+    @apply flex items-center;
+}
+
+.mu-btn-primary {
+    @apply bg-primary;
+}
+
+.mu-btn-warning {
+    @apply bg-warning;
+}
+
+.mu-btn-danger {
+    @apply bg-danger;
+}
