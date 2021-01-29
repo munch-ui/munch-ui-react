@@ -1,13 +1,6 @@
-import * as React from 'react';
-import styles from './styles.module.css';
-
-interface Props {
-    text: string;
-}
-
-export const ExampleComponent = ({ text }: Props) => {
-    return <div className={styles.test}>Example Component: {text}</div>;
-};
+import './styles.module.scss';
 
 export { default as Button } from './components/button/Button';
 export { default as Card } from './components/card/Card';
+export { default as Input } from './components/input/Input';
+export { default as AppHeader } from './components/app-header/AppHeader';

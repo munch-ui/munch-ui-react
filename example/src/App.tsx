@@ -1,16 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-import { ExampleComponent } from 'munch-ui-react'
-import 'munch-ui-react/dist/index.css'
-import ComponentsViewport from './pages/ComponentsViewport'
+import 'munch-ui-react/dist/index.css';
+import { AppHeader } from 'munch-ui-react';
 
 const App = () => {
-  return (
-    <>
-      <ExampleComponent text='Create React Library Example 😄' />
-      <ComponentsViewport></ComponentsViewport>
-    </>
-  )
-}
+    return (
+        <>
+            <AppHeader />
+        </>
+    );
+};
 
-export default App
+export default App;

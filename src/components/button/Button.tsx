@@ -21,7 +21,7 @@ export default ({
                 [styles[`mu-btn-${color}`]]: color && appearance === `fill`
             },
             {
-                [`border border-${color}`]: color && appearance !== `ghost`
+                [`b border-${color}`]: color && appearance !== `ghost`
             },
             {
                 [`hover:bg-gray-100 active:text-${color}`]:

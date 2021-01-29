@@ -3,7 +3,7 @@
 }
 
 .mu-btn-appearance-fill {
-    @apply text-white hover:opacity-75 active:opacity-80;
+    @apply text-white hover:opacity-75 active:opacity-90;
 }
 
 .mu-btn-appearance-outline {
@@ -11,7 +11,7 @@
 }
 
 .mu-btn-size-default {
-    @apply px-4 py-0.5;
+    @apply px-5 h-8;
 }
 
 .mu-btn-size-sm {
@@ -19,7 +19,7 @@
 }
 
 .mu-btn-size-lg {
-    @apply px-4 py-0.5;
+    @apply px-6 h-10;
 }
 
 .mu-btn-shape-default {

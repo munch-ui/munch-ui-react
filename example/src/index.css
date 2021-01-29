@@ -11,4 +11,8 @@
         font-family: 'NunitoSans-Bold';
         src: url('./assets/fonts/NunitoSans-SemiBold.ttf');
     }
+    @font-face {
+        font-family: 'Pacifico';
+        src: url('./assets/fonts/Pacifico-Regular.ttf');
+    }
 }
