@@ -12,7 +12,7 @@ npm install --save munch-ui-react
 
 ## Usage
 
-```tsx
+```jsx
 import React, { Component } from 'react'
 
 import MyComponent from 'munch-ui-react'
