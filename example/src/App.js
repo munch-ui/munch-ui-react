@@ -1,10 +1,9 @@
 import React from 'react'
 
-import { ExampleComponent } from 'munch-ui-react'
-import 'munch-ui-react/dist/index.css'
+import { Button } from 'munch-ui-react'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+    return <Button>Create React Library Example 😄</Button>
 }
 
 export default App
